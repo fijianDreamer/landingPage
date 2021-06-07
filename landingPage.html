@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- Name: Amrita S -->
+<!-- Date: 7/7/21 -->
+<!-- Page: landingPage.html -->
+<!-- See this page in action! https://www.amritascreations.com/landingPage.html -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+<!-- Stylesheets -->
+<!-- This is the code for the font that will be used (Old Standard TT) -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+<!-- Landing Page CSS -->
+<link rel="stylesheet" href="style/landingPageCSS.css"> 
+<!-- Link for Google Icons. Will be using home icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- End of Stylesheets -->
+    
+<title>You have landed!</title>
+</head>
+<body>
+<!-- Border-box with a white background (that is transparent), so that you can still see the image. The
+time, greeting, and focus will all be within this box -->
+<div id="bgCss">
+<time id="time"></time>
+<h1>
+		<span id="greeting"></span>
+		<span id="name" contenteditable="true"></span>
+</h1>
+<h2>What is your focus for today?</h2>
+<h2 id="focus" contenteditable="true"></h2>
+	<h3> <!-- This is the location of where the pic of the was taken -->
+		<span class="material-icons">room</span><span id="caLocation"></span>
+    </h3>
+	
+	<!-- JavaScript file -->
+	<script src="landingPageMain.js"></script>
+	</div>
+</body>
+</html>
